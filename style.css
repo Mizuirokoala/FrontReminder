@@ -1,6 +1,36 @@
 
-*{margin: 0;
+*{
+    margin: 0;
     padding: 0;
-    
-
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
 }
+body{
+    background-color: aquamarine;
+}
+
+ #wrapper{
+     max-width: 1000px;
+     margin: 0 auto 10px;;
+     background-color: blue;
+ }
+ header img{
+     width: 100%;
+     display: block;
+ }
+ nav{
+     background-color: crimson;
+
+ }
+ a.menu{
+display:inline-block;
+width: 25%;
+padding: 15px,30px;
+color: aliceblue;
+text-decoration: none;
+text-align: center;
+ }
+ a.menu:hover{
+     background-color: black;
+ }
+
